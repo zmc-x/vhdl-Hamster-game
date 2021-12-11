@@ -1,0 +1,92 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Full Version
+# Date created = 20:59:06  December 10, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		show_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY FLEX10K
+set_global_assignment -name DEVICE "EPF10K20TI144-4"
+set_global_assignment -name TOP_LEVEL_ENTITY test
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:59:06  DECEMBER 10, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VHDL_FILE show.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE show.vwf
+set_global_assignment -name VHDL_FILE button.vhd
+set_global_assignment -name VHDL_FILE random.vhd
+set_global_assignment -name VHDL_FILE new_clock.vhd
+set_global_assignment -name VHDL_FILE time_down.vhd
+set_global_assignment -name VHDL_FILE CompareAdd.vhd
+set_global_assignment -name BDF_FILE test.bdf
+set_global_assignment -name FLEX10K_DEVICE_IO_STANDARD TTL
+set_location_assignment PIN_55 -to clk2
+set_location_assignment PIN_125 -to clk_kill
+set_location_assignment PIN_38 -to in[3]
+set_location_assignment PIN_37 -to in[2]
+set_location_assignment PIN_36 -to in[1]
+set_location_assignment PIN_33 -to in[0]
+set_location_assignment PIN_135 -to sel[7]
+set_location_assignment PIN_133 -to sel[6]
+set_location_assignment PIN_132 -to sel[5]
+set_location_assignment PIN_131 -to sel[4]
+set_location_assignment PIN_130 -to sel[3]
+set_location_assignment PIN_121 -to sel[2]
+set_location_assignment PIN_120 -to sel[1]
+set_location_assignment PIN_119 -to sel[0]
+set_location_assignment PIN_136 -to smg[6]
+set_location_assignment PIN_137 -to smg[5]
+set_location_assignment PIN_138 -to smg[4]
+set_location_assignment PIN_140 -to smg[3]
+set_location_assignment PIN_141 -to smg[2]
+set_location_assignment PIN_142 -to smg[1]
+set_location_assignment PIN_143 -to smg[0]
+set_global_assignment -name MISC_FILE "D:/EDAÎÄ¼þ/test5/show.dpf"
+set_location_assignment PIN_97 -to random_out[3]
+set_location_assignment PIN_95 -to random_out[2]
+set_location_assignment PIN_90 -to random_out[1]
+set_location_assignment PIN_86 -to random_out[0]
+set_location_assignment PIN_128 -to clk_1
+set_location_assignment PIN_44 -to clr
+set_location_assignment PIN_43 -to in[7]
+set_location_assignment PIN_42 -to in[6]
+set_location_assignment PIN_41 -to in[5]
+set_location_assignment PIN_39 -to in[4]
+set_location_assignment PIN_118 -to random_out[7]
+set_location_assignment PIN_113 -to random_out[6]
+set_location_assignment PIN_109 -to random_out[5]
+set_location_assignment PIN_100 -to random_out[4]
