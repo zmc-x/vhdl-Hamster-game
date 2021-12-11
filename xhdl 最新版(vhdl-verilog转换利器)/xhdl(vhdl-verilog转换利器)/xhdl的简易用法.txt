@@ -1,0 +1,19 @@
+安装（破解）好后,启动主程序(X-HDL.EXE):
+1.选择VERILOG-->VHDL (或VHDL--->VERILOG)
+2.选择SOURCE FILE（需要转换的文件）的路径
+3.选择DEST DIR,转换后保存的路径
+4.选择OUTPUT为FILE,默认的是WINDOW
+5.按“TRANSLATE”(转换)按钮,转换完成
+6.到第3步选择的目录下就可以找到新转换好的文件.
+
+OK了
+
+custom defs 自定义DEFS
+pre-process 前处理
+post-process 后处理
+log file 日志文件
+
+
+
+
+

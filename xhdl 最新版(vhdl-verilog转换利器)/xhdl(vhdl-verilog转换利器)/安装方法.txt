@@ -1,0 +1,2 @@
+1.运行X-HDL-4.1.4-Setup.exe 安装源文件
+2.再运行xhdl_4.1.4_patch.exe 进行破解，指定根目录到X:\Program Files\X-Tek\X-HDL-4.1.4\bin 即可
